@@ -12,7 +12,7 @@ export class ProjectsComponent {
   projects = [
     {
       title: 'Bezel',
-      description: 'A sleek, image-driven landing page concept for a luxury watch brand, focused on clean typography and full-bleed visuals.',
+      description: "A recreation of the BlurAdmin documentation site, built with Angular and Tailwind CSS as a learning project exploring multi-page Angular architecture and documentation-style layouts.",
       image: 'assets/imgs/bezel.png',
       tags: ['Angular', 'TypeScript', 'tailwindcss'],
       githubUrl: 'https://github.com/YoussefWael2028/bezel',
@@ -20,7 +20,7 @@ export class ProjectsComponent {
     },
     {
       title: 'BlurAdmin',
-      description: 'An Angular-based admin panel front-end framework featuring a dashboard, charts, and reusable UI components.',
+      description: 'A recreation of the BlurAdmin documentation site, built with Angular and Tailwind CSS as a learning project exploring multi-page Angular architecture and documentation-style layouts.',
       image: 'assets/imgs/blur-admin.png',
       tags: ['Angular', 'TypeScript', 'tailwindcss'],
       githubUrl: 'https://github.com/YoussefWael2028/bluradmin',
@@ -30,9 +30,9 @@ export class ProjectsComponent {
       title: 'Mealify',
       description: 'A modern restaurant website built around clean UI/UX principles, showcasing menu items and a booking flow.',
       image: 'assets/imgs/mealify.png',
-      tags: ['HTML5', 'CSS3', 'JavaScript'],
+      tags: ['HTML5', 'CSS3'],
       githubUrl: 'https://github.com/YoussefWael2028/mealify',
-      liveUrl: null
+      liveUrl: 'https://mealify-one-fawn.vercel.app/'
     }
   ];
 }
