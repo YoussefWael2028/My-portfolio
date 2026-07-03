@@ -1,0 +1,30 @@
+<section id="experience" class="bg-[#1a0000] py-24 px-6 md:px-12 mt-40">
+  <div class="flex flex-col">
+    <div
+      *ngFor="let entry of experiences"
+      class="group grid grid-cols-1 md:grid-cols-[120px_1fr] gap-4 p-4 -mx-4 rounded-md hover:bg-[#240909] transition-colors duration-300"
+    >
+      <span class="text-sm text-[#a88c8c] md:pt-1">{{ entry.dateRange }}</span>
+
+      <div>
+        <h3 class="text-base font-semibold text-[#f0e6e6] group-hover:text-[#e53e3e] group-focus-visible:text-[#e53e3e] transition-colors  duration-300">
+          {{ entry.title }}
+          <span class="text-[#a88c8c]"> · {{ entry.org }}</span>
+        </h3>
+
+        <p class="text-sm text-[#a88c8c] mt-2 leading-relaxed">
+          {{ entry.description }}
+        </p>
+
+        <ul class="flex flex-wrap gap-2 mt-3" *ngIf="entry.tags?.length">
+          <li
+            *ngFor="let tag of entry.tags"
+            class="text-xs font-medium text-[#e2b8b8] bg-[#3a1414] px-3 py-1 rounded-full"
+          >
+            {{ tag }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>

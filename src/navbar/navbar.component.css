@@ -1,0 +1,8 @@
+.nav-line-active {
+  width: 4rem; /* matches w-16 */
+  background-color: #e53e3e;
+}
+
+.nav-text-active {
+  color: #e53e3e;
+}

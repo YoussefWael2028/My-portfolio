@@ -33,6 +33,7 @@
             "ssr": {
               "entry": "server.ts"
             }
+
           },
           "configurations": {
             "production": {
@@ -96,5 +97,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "26ab163a-808b-4904-97d7-3d4f5de428ce"
   }
 }

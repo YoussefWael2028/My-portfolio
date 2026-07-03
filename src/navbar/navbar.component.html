@@ -1,0 +1,85 @@
+<nav class="sticky top-0 h-screen flex flex-col justify-between px-8 py-28 ">
+  <div class="title">
+    <h1 class="text-5xl font-bold text-[#f0e6e6]">Youssef Wael</h1>
+    <div class="flex items-center gap-3 mt-3">
+      <h2 class="text-2xl font-semibold text-[#a88c8c]">Frontend Developer</h2>
+      <div class="greenBadge inline-flex items-center gap-1.5 px-2 pt-1 pb-0.5 rounded-full">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+        </span>
+        <span class="text-xs text-green-500">Open to work (full time/side projects)</span>
+      </div>
+    </div>
+    <p class="text-[#a88c8c] pt-2 pl-2">specializing in building accessible, responsive interfaces and pixel-perfect UI/UX experiences with Angular.</p>
+  </div>
+
+  <div class="links w-1/2 pl-4">
+    <ul>
+   <li><a class="group flex items-center py-3" href="#about">
+  <span
+    class="mr-4 h-px w-8 bg-[#a88c8c] transition-all group-hover:w-16 group-hover:bg-[#e53e3e] group-focus-visible:w-16 group-focus-visible:bg-[#e53e3e] motion-reduce:transition-none"
+    [class.nav-line-active]="activeSection === 'about'"
+  ></span>
+  <span
+    class="text-xs font-bold uppercase tracking-widest text-[#a88c8c] group-hover:text-[#e53e3e] group-focus-visible:text-[#e53e3e]"
+    [class.nav-text-active]="activeSection === 'about'"
+  >About</span>
+</a></li>
+    <li><a class="group flex items-center py-3" href="#experience">
+  <span
+    class="mr-4 h-px w-8 bg-[#a88c8c] transition-all group-hover:w-16 group-hover:bg-[#e53e3e] group-focus-visible:w-16 group-focus-visible:bg-[#e53e3e] motion-reduce:transition-none"
+    [class.nav-line-active]="activeSection === 'experience'"
+  ></span>
+  <span
+    class="text-xs font-bold uppercase tracking-widest text-[#a88c8c] group-hover:text-[#e53e3e] group-focus-visible:text-[#e53e3e]"
+    [class.nav-text-active]="activeSection === 'experience'"
+  >Experience</span>
+</a></li>
+      <li><a class="group flex items-center py-3" href="#projects">
+  <span
+    class="mr-4 h-px w-8 bg-[#a88c8c] transition-all group-hover:w-16 group-hover:bg-[#e53e3e] group-focus-visible:w-16 group-focus-visible:bg-[#e53e3e] motion-reduce:transition-none"
+    [class.nav-line-active]="activeSection === 'projects'"
+  ></span>
+  <span
+    class="text-xs font-bold uppercase tracking-widest text-[#a88c8c] group-hover:text-[#e53e3e] group-focus-visible:text-[#e53e3e]"
+    [class.nav-text-active]="activeSection === 'projects'"
+  >projects</span>
+</a></li>
+    </ul>
+
+  </div>
+  <div class="ms-20">
+ <a href="mailto:youremail@example.com?subject=Let's%20work%20together&body=Hi%20Youssef,%20"
+  class="group relative inline-flex items-center gap-3 w-fit px-6 py-3 pl-4 rounded-full  border border-[#3a1414] hover:border-[#e53e3e] transition-all duration-300 overflow-hidden"
+>
+
+  <span class="relative flex h-2 w-2 shrink-0">
+    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#e53e3e] opacity-60"></span>
+    <span class="relative inline-flex rounded-full h-2 w-2 bg-[#e53e3e]"></span>
+  </span>
+
+  <span class="text-xs font-bold uppercase tracking-widest text-[#a88c8c] group-hover:text-[#f0e6e6] transition-colors duration-300 z-10">
+    Say Hello
+  </span>
+
+  <i class="fa-solid fa-envelope text-sm text-[#a88c8c] group-hover:text-[#e53e3e] group-hover:translate-x-1 transition-all duration-300 z-10"></i>
+
+  <!-- Sweeping fill that slides in from the left on hover -->
+  <span class="absolute inset-0 bg-[#e53e3e]/10 -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-out"></span>
+</a>
+</div>
+<div class="icons flex flex-row gap-8 ml-24 ">
+
+  <a class="group" href="https://github.com/YoussefWael2028" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+    <i class="fa-brands fa-square-github text-2xl text-[#a88c8c] group-hover:text-[#e53e3e] transition-colors"></i>
+  </a>
+  <a class="group" href="https://www.linkedin.com/in/youssef-wael-282135311" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin text-2xl text-[#a88c8c] group-hover:text-[#e53e3e] transition-colors"></i>
+  </a>
+  <a class="group" href="https://www.facebook.com/youssef.wael.7" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+    <i class="fa-brands fa-square-facebook text-2xl text-[#a88c8c] group-hover:text-[#e53e3e] transition-colors"></i>
+  </a>
+</div>
+
+</nav>
